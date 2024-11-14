@@ -16,7 +16,7 @@ export default function Header() {
         { title: "Blog", href: "/blog" },
       ];
   return (
-    <div className='py-[15px]'>
+    <div className='py-[15px] border-b-[1px] sticky top-0 z-50 bg-white shadow-[0_4px_4px_-2px_rgba(0,0,0,0.1)]'>
       <Container className='flex items-center justify-between'>
         {/* logo */}
         <div>
