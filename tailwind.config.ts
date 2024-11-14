@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        headerColor: "#0363CA",
+        btnColor: "#0487E2",
       },
     },
   },
