@@ -2,9 +2,10 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Container from "./Container";
+import { StaticImageData } from "next/image";
 
 interface ImageSliderProps {
-  images: any;
+  images:StaticImageData[];
 }
 
 const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
