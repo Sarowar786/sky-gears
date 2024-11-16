@@ -36,7 +36,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
 
         <button
           onClick={nextSlide}
-          className="absolute -right-10 top-1/2 transform -translate-y-1/2  text-gray-700 p-2 rounded-full"
+          className="absolute -right-[1%] lg:-right-[2%] top-1/2 transform -translate-y-1/2  text-gray-700 p-2 rounded-full"
         >
           &#10095;
         </button>

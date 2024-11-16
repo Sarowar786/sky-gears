@@ -23,7 +23,7 @@ export default function TopHeader() {
       <Container className="flex items-center justify-between h-[16px]">
         <p className="text-white text-[13px]">Hotline: <span className="font-bold">+0186-1123325</span> </p>
         <div className="flex items-center justify-center gap-10">
-            <p className="text-[13px]">Contact us</p>
+            <p className="text-[13px] hidden sm:inline-flex">Contact us</p>
             <div className="flex items-center justify-center gap-2">
             {socialIcon.map((item,i)=>(
                 <Link href={item.link} key={i} className="w-[16px] h-[16px]">
