@@ -10,12 +10,15 @@ import product2 from '@/assets/images/product2.png';
 import product3 from '@/assets/images/product3.png';
 import product4 from '@/assets/images/product4.png';
 import Container from './Container';
+import { StaticImageData } from 'next/image';
+
 
 type Product = {
   id: number;
   name: string;
   price: number;
-  image: any; 
+  image: StaticImageData; 
+  
 };
 
 const products: Product[] = [
